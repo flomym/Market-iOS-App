@@ -27,7 +27,7 @@
         <!--おすすめ-->
         <scene sceneID="hu0-5Z-Zpg">
             <objects>
-                <tableViewController id="Zoe-p4-1wg" customClass="RecommendItemsViewController" customModule="Market" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Zoe-p4-1wg" customClass="RecommendItemsDetailsViewController" customModule="Market" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="96" sectionHeaderHeight="28" sectionFooterHeight="28" id="Fr8-Qe-BAx">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,6 +99,7 @@
                                     <outlet property="nameLabel" destination="wA8-UB-3Tx" id="pzu-uw-OUT"/>
                                     <outlet property="priceLabel" destination="xee-pW-saI" id="Det-JV-STS"/>
                                     <outlet property="thumbnailImageView" destination="dND-MF-Ce0" id="vOM-MQ-ill"/>
+                                    <segue destination="gKn-v8-6Qc" kind="show" id="Eqw-GX-yP7"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -111,7 +112,25 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WD8-QL-jdp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1665" y="0.0"/>
+            <point key="canvasLocation" x="1669" y="-8"/>
+        </scene>
+        <!--Item Details View Controller-->
+        <scene sceneID="bTj-1O-MQx">
+            <objects>
+                <viewController id="gKn-v8-6Qc" customClass="ItemDetailsViewController" customModule="Market" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PHR-NK-B9T"/>
+                        <viewControllerLayoutGuide type="bottom" id="kMw-tq-UgH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lJN-5d-MNr" customClass="Item" customModule="Market" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aTu-gZ-AVv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2563" y="-8"/>
         </scene>
         <!--Item-->
         <scene sceneID="PmR-Q1-FMt">

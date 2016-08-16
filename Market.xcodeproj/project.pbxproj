@@ -11,9 +11,17 @@
 		F3EE0D601D629A6A009A85D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EE0D5E1D629A6A009A85D4 /* Main.storyboard */; };
 		F3EE0D621D629A6A009A85D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EE0D611D629A6A009A85D4 /* Assets.xcassets */; };
 		F3EE0D651D629A6A009A85D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EE0D631D629A6A009A85D4 /* LaunchScreen.storyboard */; };
-		F3EE0D701D629F0A009A85D4 /* RecommendItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE0D6F1D629F0A009A85D4 /* RecommendItemsViewController.swift */; };
+		F3EE0D701D629F0A009A85D4 /* RecommendItemsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE0D6F1D629F0A009A85D4 /* RecommendItemsDetailsViewController.swift */; };
 		F3EE0D721D62A4C7009A85D4 /* RecommendItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE0D711D62A4C7009A85D4 /* RecommendItemCell.swift */; };
 		F3EE0D741D62B23E009A85D4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE0D731D62B23E009A85D4 /* Item.swift */; };
+		F3EE0D861D62D03F009A85D4 /* MarketRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE0D851D62D03F009A85D4 /* MarketRequestType.swift */; };
+		F3EE0D8A1D62D2D3009A85D4 /* RecommendItemsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE0D891D62D2D3009A85D4 /* RecommendItemsRequest.swift */; };
+		F3EE0D901D62E17D009A85D4 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE0D8F1D62E17D009A85D4 /* ItemDetailsViewController.swift */; };
+		F3EE0D9D1D62E5F0009A85D4 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EE0D981D62E5F0009A85D4 /* APIKit.framework */; };
+		F3EE0D9E1D62E5F0009A85D4 /* FontAwesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EE0D991D62E5F0009A85D4 /* FontAwesome.framework */; };
+		F3EE0D9F1D62E5F0009A85D4 /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EE0D9A1D62E5F0009A85D4 /* Himotoki.framework */; };
+		F3EE0DA01D62E5F0009A85D4 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EE0D9B1D62E5F0009A85D4 /* Result.framework */; };
+		F3EE0DA11D62E5F0009A85D4 /* WebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EE0D9C1D62E5F0009A85D4 /* WebImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +31,17 @@
 		F3EE0D611D629A6A009A85D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3EE0D641D629A6A009A85D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3EE0D661D629A6A009A85D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3EE0D6F1D629F0A009A85D4 /* RecommendItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendItemsViewController.swift; sourceTree = "<group>"; };
+		F3EE0D6F1D629F0A009A85D4 /* RecommendItemsDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendItemsDetailsViewController.swift; sourceTree = "<group>"; };
 		F3EE0D711D62A4C7009A85D4 /* RecommendItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendItemCell.swift; sourceTree = "<group>"; };
 		F3EE0D731D62B23E009A85D4 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F3EE0D851D62D03F009A85D4 /* MarketRequestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketRequestType.swift; sourceTree = "<group>"; };
+		F3EE0D891D62D2D3009A85D4 /* RecommendItemsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendItemsRequest.swift; sourceTree = "<group>"; };
+		F3EE0D8F1D62E17D009A85D4 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		F3EE0D981D62E5F0009A85D4 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
+		F3EE0D991D62E5F0009A85D4 /* FontAwesome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesome.framework; path = Carthage/Build/iOS/FontAwesome.framework; sourceTree = "<group>"; };
+		F3EE0D9A1D62E5F0009A85D4 /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/iOS/Himotoki.framework; sourceTree = "<group>"; };
+		F3EE0D9B1D62E5F0009A85D4 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		F3EE0D9C1D62E5F0009A85D4 /* WebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebImage.framework; path = Carthage/Build/iOS/WebImage.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3EE0D9D1D62E5F0009A85D4 /* APIKit.framework in Frameworks */,
+				F3EE0D9E1D62E5F0009A85D4 /* FontAwesome.framework in Frameworks */,
+				F3EE0D9F1D62E5F0009A85D4 /* Himotoki.framework in Frameworks */,
+				F3EE0DA01D62E5F0009A85D4 /* Result.framework in Frameworks */,
+				F3EE0DA11D62E5F0009A85D4 /* WebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,7 @@
 		F3EE0D4C1D629A6A009A85D4 = {
 			isa = PBXGroup;
 			children = (
+				F3EE0D751D62CC0A009A85D4 /* Frameworks */,
 				F3EE0D571D629A6A009A85D4 /* Market */,
 				F3EE0D561D629A6A009A85D4 /* Products */,
 			);
@@ -74,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				F3EE0D731D62B23E009A85D4 /* Item.swift */,
+				F3EE0D851D62D03F009A85D4 /* MarketRequestType.swift */,
+				F3EE0D891D62D2D3009A85D4 /* RecommendItemsRequest.swift */,
 			);
 			name = Model;
 			path = ../Model;
@@ -90,9 +114,22 @@
 		F3EE0D6E1D629BE7009A85D4 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F3EE0D6F1D629F0A009A85D4 /* RecommendItemsViewController.swift */,
+				F3EE0D6F1D629F0A009A85D4 /* RecommendItemsDetailsViewController.swift */,
+				F3EE0D8F1D62E17D009A85D4 /* ItemDetailsViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F3EE0D751D62CC0A009A85D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3EE0D981D62E5F0009A85D4 /* APIKit.framework */,
+				F3EE0D991D62E5F0009A85D4 /* FontAwesome.framework */,
+				F3EE0D9A1D62E5F0009A85D4 /* Himotoki.framework */,
+				F3EE0D9B1D62E5F0009A85D4 /* Result.framework */,
+				F3EE0D9C1D62E5F0009A85D4 /* WebImage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +142,7 @@
 				F3EE0D511D629A6A009A85D4 /* Sources */,
 				F3EE0D521D629A6A009A85D4 /* Frameworks */,
 				F3EE0D531D629A6A009A85D4 /* Resources */,
+				F3E5244A1D62E750009F3600 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,14 +199,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F3E5244A1D62E750009F3600 /* Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Himotoki.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/APIKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FontAwesome.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/WebImage.framework",
+			);
+			name = "Copy Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/brew/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3EE0D511D629A6A009A85D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F3EE0D741D62B23E009A85D4 /* Item.swift in Sources */,
+				F3EE0D8A1D62D2D3009A85D4 /* RecommendItemsRequest.swift in Sources */,
 				F3EE0D721D62A4C7009A85D4 /* RecommendItemCell.swift in Sources */,
-				F3EE0D701D629F0A009A85D4 /* RecommendItemsViewController.swift in Sources */,
+				F3EE0D701D629F0A009A85D4 /* RecommendItemsDetailsViewController.swift in Sources */,
+				F3EE0D861D62D03F009A85D4 /* MarketRequestType.swift in Sources */,
+				F3EE0D901D62E17D009A85D4 /* ItemDetailsViewController.swift in Sources */,
 				F3EE0D591D629A6A009A85D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +347,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Market/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cookpad.ios.Market;
@@ -295,6 +362,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Market/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cookpad.ios.Market;
@@ -321,6 +392,7 @@
 				F3EE0D6B1D629A6A009A85D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
