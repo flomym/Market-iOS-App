@@ -3,7 +3,6 @@ import UIKit
 
 class RecommendItemsDetailsViewController: UITableViewController {
     
-    
     // Item.swiftで作成したStructに値を代入
     var items: [Item] = [] {
         didSet {
@@ -52,5 +51,15 @@ class RecommendItemsDetailsViewController: UITableViewController {
         cell.update(withItem: item)
             
         return cell
+    }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let destination = segue.destinationViewController as? ItemDetailsViewController {
+            guard let selectedIndexPath = tableView.indexPathForSelectedRow else {
+                return
+            }
+            
+            let item = items[selectedIndexPath.row]
+            destination.itemID = item.id
+        }
     }
 }

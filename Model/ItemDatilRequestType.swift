@@ -2,19 +2,21 @@ import Foundation
 import Himotoki
 import APIKit
 
-struct RecommendItemsRequest: MarketRequestType {
-    typealias Response = [Item]
-    
+struct ItemDatilRequest: MarketRequestType {
+    typealias Response = Item
+
+    var id: Int = 0
+
     var method: HTTPMethod {
         return .GET
     }
     
     var path: String {
-        return "/items/recommended.json"
+        return "/items/\(id).json"
     }
     
     func responseFromObject(object: AnyObject, URLResponse: NSHTTPURLResponse) throws -> Response {
-        return try decodeArray(object)
+        return try decodeValue(object)
     }
     
 }

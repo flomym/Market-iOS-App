@@ -1,15 +1,17 @@
-//
-//  ItemDetailsViewController.swift
-//  Market
-//
-//  Created by tomoka-moriwaki on 2016/08/16.
-//  Copyright © 2016年 tomoka-moriwaki. All rights reserved.
-//
-
+import APIKit
 import UIKit
 
 class ItemDetailsViewController: UIViewController {
-
+    
+    @IBOutlet weak var thumbnailImageView: UIImageView!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    var itemID: Int = 0
+    //var item: Item? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,15 +23,29 @@ class ItemDetailsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        print(itemID)
+        
+        let request = ItemDatilRequest(id: itemID)
+        
+        Session.sendRequest(request) { result in
+            switch result {
+            case .Success(let response):
+                self.update(withItem: response)
+                print(response)
+            case .Failure(let error):
+                print(error)
+            }
+        }
+        
     }
-    */
-
+    func update(withItem item: Item){
+        nameLabel.text = item.name
+        priceLabel.text = "\(item.price)円"
+        descriptionLabel.text = item.desc
+        thumbnailImageView.sd_setImageWithURL(item.imageURL)
+    }
+    
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3E524521D62FFC3009F3600 /* ItemDatilRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E524511D62FFC3009F3600 /* ItemDatilRequestType.swift */; };
 		F3EE0D591D629A6A009A85D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EE0D581D629A6A009A85D4 /* AppDelegate.swift */; };
 		F3EE0D601D629A6A009A85D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EE0D5E1D629A6A009A85D4 /* Main.storyboard */; };
 		F3EE0D621D629A6A009A85D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EE0D611D629A6A009A85D4 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3E524511D62FFC3009F3600 /* ItemDatilRequestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDatilRequestType.swift; sourceTree = "<group>"; };
 		F3EE0D551D629A6A009A85D4 /* Market.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Market.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3EE0D581D629A6A009A85D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3EE0D5F1D629A6A009A85D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				F3EE0D731D62B23E009A85D4 /* Item.swift */,
 				F3EE0D851D62D03F009A85D4 /* MarketRequestType.swift */,
 				F3EE0D891D62D2D3009A85D4 /* RecommendItemsRequest.swift */,
+				F3E524511D62FFC3009F3600 /* ItemDatilRequestType.swift */,
 			);
 			name = Model;
 			path = ../Model;
@@ -141,8 +144,8 @@
 			buildPhases = (
 				F3EE0D511D629A6A009A85D4 /* Sources */,
 				F3EE0D521D629A6A009A85D4 /* Frameworks */,
-				F3EE0D531D629A6A009A85D4 /* Resources */,
 				F3E5244A1D62E750009F3600 /* Copy Frameworks */,
+				F3EE0D531D629A6A009A85D4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +234,7 @@
 				F3EE0D721D62A4C7009A85D4 /* RecommendItemCell.swift in Sources */,
 				F3EE0D701D629F0A009A85D4 /* RecommendItemsDetailsViewController.swift in Sources */,
 				F3EE0D861D62D03F009A85D4 /* MarketRequestType.swift in Sources */,
+				F3E524521D62FFC3009F3600 /* ItemDatilRequestType.swift in Sources */,
 				F3EE0D901D62E17D009A85D4 /* ItemDetailsViewController.swift in Sources */,
 				F3EE0D591D629A6A009A85D4 /* AppDelegate.swift in Sources */,
 			);
